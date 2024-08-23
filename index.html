@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator | Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script src="app.js"></script>
+    <div class="position">
+      <div class="container">
+        <div class="display">
+          <p id="answer-box">0</p>
+        </div>
+        <div class="calc-btn">
+          <div class="row-1">
+            <button class="buttons functionsone clear">C</button>
+            <button class="buttons functionsone delete">DEL</button>
+            <button class="buttons functionsone percentage">%</button>
+            <button class="buttons functionstwo">&divide;</button>
+          </div>
+          <div class="row-2">
+            <button class="buttons">7</button>
+            <button class="buttons">8</button>
+            <button class="buttons">9</button>
+            <button class="buttons functionstwo">x</button>
+          </div>
+          <div class="row-3">
+            <button class="buttons">4</button>
+            <button class="buttons">5</button>
+            <button class="buttons">6</button>
+            <button class="buttons functionstwo">-</button>
+          </div>
+          <div class="row-4">
+            <button class="buttons" onclick="calculate('1')">1</button>
+            <button class="buttons">2</button>
+            <button class="buttons">3</button>
+            <button class="buttons functionstwo">+</button>
+          </div>
+          <div class="row-5">
+            <button class="buttons">0</button>
+            <button class="buttons">.</button>
+            <button class="buttons functionequal">=</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

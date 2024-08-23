@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #2772db;
+}
+
+.position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgb(25, 117, 148,);
+    width: fit-content;
+    margin: 40px;
+    border-radius: 6px;
+    padding: 25px;
+    background-color: #070f4ea9;
+}
+
+.display {
+    background-color: white;
+    text-align: right;
+    border: none;
+    height: fit-content;
+    border-radius: 4px;
+    padding: 15px 5px;
+    vertical-align: middle;
+
+    
+}
+
+.display p {
+    font-size: 40px;
+    margin: 0;
+    align-self: center;
+}
+
+
+.calc-btn {
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+    gap: 10px;
+    margin-top: 25px;
+    
+}
+
+.buttons {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: #1e549f;
+    color: #fff; 
+    transition: all 0.3s;
+}
+
+.buttons:hover {
+    color: white;
+    background-color: rgb(45, 17, 97);
+    cursor: pointer;
+
+}
+.clear, .delete .percentage{
+    font-size: 18px;
+}
+
+.functionsone {
+    color: black;
+    background-color: #5fc9f3;
+
+}
+
+.functionstwo {
+    background-color: #66d37e;
+}
+
+
+.functionequal {
+    border-radius: 0;
+    text-align: center;
+    width: 110px;
+    border-radius: 55px;
+}
+
